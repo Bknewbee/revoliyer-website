@@ -1,7 +1,7 @@
 import React from 'react';
 import './about.css';
 
-import aboutBg from "../images/aboutBg.JPG";
+//import aboutBg from "../images/aboutBg.JPG";
 import portImg from "../images/portrait.jpg";
 import ggImg from "../images/Gg.jpg";
 import brownImg from "../images/Brown.jpg";
@@ -83,7 +83,7 @@ function About (){
       </div>
       <hr/>
       <div className="container-fluid text-center" style={{position: "relative", }}>
-      <img className="img-fluid"  src={teamImg} alt="team picture" style={{width: "100%"}}/>
+      <img className="img-fluid"  src={teamImg} alt="team" style={{width: "100%"}}/>
       <h2 style={{position: "absolute", top: "5%",left:"39%", textDecoration:"underline"}}>TEAM</h2>
 
       </div>

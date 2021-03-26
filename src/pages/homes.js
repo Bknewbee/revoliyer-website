@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 
 //required files
 import "./home.css";
-import homeBg from "../images/homeBg.JPG";
+//import homeBg from "../images/homeBg.JPG";
 
 
 class Home extends Component {
