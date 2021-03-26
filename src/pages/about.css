@@ -1,0 +1,50 @@
+#About .header {
+  text-align: center;
+  padding: 100px 0px 20px 0px;
+  min-height: 100vh;
+  color:white;
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../images/aboutBg.JPG');
+
+
+}
+#About .header h2{
+  margin: 100px 0px 0px 0px;
+}
+#About .header p{
+  margin: 50px 0px 0px 0px;
+}
+#About .content{
+  margin: 0px auto;
+  padding: 0px 50px 0px 50px;
+}
+.cormorant {
+  font-family: "Cormorant Garamond";
+}
+.montserrat{
+  font-family: "Montserrat Alternates";
+  padding-top: 5px;
+  font-size: 18px;
+}
+.grayImg{
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+}
+
+@media (max-width: 1024px) {
+  #About .header{
+    margin: 50px auto;
+    padding: 20px 0px 10px 0px;
+    min-height: 100vh;
+  }
+  #About .header h2{
+    margin: 20px;
+  }
+  #About .header p{
+    margin: 20px;
+  }
+}
+@media (max-width: 768px) {
+  #About .header{
+    margin: 50px auto;
+  }
+}

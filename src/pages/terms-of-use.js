@@ -6,7 +6,12 @@ class TermsOfUse extends Component {
   render (){
     return (
       <div id="TermsOfUse">
-        Terms of Use
+        <header className="">
+          Revoliyer Terms of Use
+        </header>
+        <main>
+          Content
+        </main>
       </div>
     )
   }

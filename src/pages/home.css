@@ -1,0 +1,75 @@
+#Home {
+
+}
+#Home .card a:hover{
+  box-shadow: 0px 4px 0px 0px #000000;
+  text-decoration: none;
+}
+#Home h1{
+  font-family: "Cormorant Garamond";
+  font-size: 60px;
+}
+#Home .home-content p{
+  text-align: center;
+  text-transform: capitalize;
+  font-family: "Montserrat Alternates";
+  font-size: 24px;
+  font-style: oblique;
+}
+.home-content{
+  padding: 10px;
+  margin: 100px 80px 0px 0px;
+  float: right;
+  width: 700px;
+  color: white;
+  background-color: #363636;
+  border-radius: 30px;
+  box-shadow: 0px 0px 50px 20px black;
+}
+.head{
+  min-height: 100vh;
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../images/homeBg.JPG');
+  background-position: top;
+}
+.main{
+  float: none;
+}
+.main h2{
+  font-size: 48px;
+  font-family: "Cormorant Garamond";
+}
+#Home .button{
+  width: 200px;
+  padding: 10px;
+  border: solid 1px yellow;
+  border-radius: 4px;
+  margin: 10px auto;
+  background-color: inherit;
+  opacity: 0.5;
+}
+#Home .button:hover{
+  background-color: grey;
+  border: solid 1px grey;
+  color: white;
+  opacity: 1.0;
+
+}
+@media (max-width: 1024px) {
+  .home-content{
+    width: 90%;
+    margin: 100px 40px 0px 0px;
+  }
+}
+@media (max-width: 768px) {
+  .home-content{
+    width: 90%;
+    margin: 85px auto;
+    float: none;
+  }
+  #Home h1{
+    font-size: 30px
+  }
+  #Home p{
+    font-size: 18px;
+  }
+}

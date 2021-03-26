@@ -24,8 +24,6 @@ function App() {
               </ul>
             </div>
         </nav>
-
-
         <Switch>
           <Route exact path="/" component={Home}></Route>
           <Route path="/about" component={About}></Route>
@@ -33,7 +31,6 @@ function App() {
           <Route path="/terms-of-use" component={TermsOfUse}></Route>
         </Switch>
       </Router>
-      Pages
       <footer>
         <div className="row">
           <div className="col">
@@ -43,7 +40,7 @@ function App() {
             <ul>
               <li><a href="/terms-of-use">Terms of use</a></li>
               <li><a href="/about">About Us</a></li>
-              <li><a href="/contact-us">Contact Us</a></li>
+              <li><a href="/contact">Contact Us</a></li>
             </ul>
           </div>
         </div>
