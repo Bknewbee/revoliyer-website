@@ -95,7 +95,7 @@ function About (){
         <div className="col-lg-8 montserrat">
           <p>
             Rivoliyer Holding is a 100% owned company with 2 partners Gaolatheope Gomosie and Emmanual Bhuka
-            who have with them a vast experience on managing EMV tyres, rims, chains and fitiments of the same from different mines inspect in
+            who have with them a vast experience on managing EMV tires, rims, chains and fitments of the same from different mines inspect in
             Botswana and across the border in Mozambique, South Africa and Namibia.
           </p>
         </div>
@@ -104,7 +104,7 @@ function About (){
         </div>
         <div className="col-lg-8 montserrat">
           <p>
-            Rivoliyer Holding supplies EMV tyres and rim accessories (HALTEC) portable electrical, hydraulic machines & tyres in general
+            Rivoliyer Holding supplies EMV tires and rim accessories (HALTEC) portable electrical, hydraulic machines & tires in general
           </p>
         </div>
         <div className="col-lg-4 cormorant">
@@ -116,11 +116,11 @@ function About (){
           </p>
           <p>
             This Social Performance policy which was put into effect on 11/08/2020 and will be reviewed on 11/08/2020
-            sets out our approach to managing our social and maximazing opportunities for social and economic benefits in the work we do,
-            all of which is key to acheiving our companies vision.
-            <br/>We expect everyone who works for Rivoliyer Holdings (Pty) Ltd to apply the following key principles to guid  our work activities.
-            <br/>We will improve our social performance , diliver local social value and leave a sustainable legacy for future generations.
-            We shall demonstrate respect for the rights, cultural beliefs and releval concerns for all parties having a legitimate interest in tyre management.
+            sets out our approach to managing our social and miximizing opportunities for social and economic benefits in the work we do,
+            all of which is key to achieving our companies vision.
+            <br/>We expect everyone who works for Rivoliyer Holdings (Pty) Ltd to apply the following key principles to guide  our work activities.
+            <br/>We will improve our social performance , deliver local social value and leave a sustainable legacy for future generations.
+            We shall demonstrate respect for the rights, cultural beliefs and relieve concerns for all parties having a legitimate interest in tire management.
           </p>
         </div>
         <div className="col-lg-4 cormorant">
@@ -131,7 +131,7 @@ function About (){
             Rivoliyer Holdings currently has a 3 year contract with Debswana for OTR Tyre, Rims and Chains Management in Orapa and Letlhakane mines
           </p>
           <p>
-            Rivoliyer Holdings has another legal agreement with Majwe Mining Company which is the supply of Automotive Tyre & Rim acessories
+            Rivoliyer Holdings has another legal agreement with Majwe Mining Company which is the supply of Automotive Tyre & Rim accessories.
           </p>
         </div>
       </div>
