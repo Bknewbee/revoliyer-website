@@ -20,10 +20,10 @@ function About (){
         <div className="montserrat">
           <p>
             Our mission is to make our mark in the mining industry as a 100% owned company
-            <br/> with the help of our well develoelped, highly qualified and experienced team that enables us to be profient in :
+            <br/> with the help of our well developed, highly qualified and experienced team that enables us to be proficient in :
             <br/>EMV Tyre/Rims and Chains Management,
-            <br/>Maintaince & Repairs of Earthmover Tyres,
-            <br/>Training in Earthmover Tyres, Rims and Tyre Chains
+            <br/>Maintain & Repairs of Earthmover Tires,
+            <br/>Training in Earthmover Tyres, Rims and Tires Chains
           </p>
         </div>
       </div>
