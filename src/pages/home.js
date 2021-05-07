@@ -56,7 +56,7 @@ class Home extends Component {
           <hr/>
         </div>
         <div className="text-center contact-div" style={{position: "relative"}}>
-          <img className="img-fluid" src={contactBG}></img>
+          <img className="img-fluid" src={contactBG} alt="background"></img>
           {/*
           <h2>Reach Out to Us</h2>
           <p>Work with us, Enquire about something</p>
