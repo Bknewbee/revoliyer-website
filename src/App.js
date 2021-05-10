@@ -31,12 +31,21 @@ function App() {
           <Route path="/terms-of-use" component={TermsOfUse}></Route>
         </Switch>
       </Router>
-      <footer>
+      <footer >
         <div className="row">
-          <div className="col">
-            <p>Email: rivoliyer@gmail.com</p>
+          <div className="col-md hide">
+            <h1>Rivoliyer</h1>
+            <p className="color2">We help reduce maintence costs<br/> Train component workers<br/> Supply quality earth moving products</p>
           </div>
-          <div className="col">
+          <div className="col-md">
+            <p><b>Visit</b></p>
+            <p className="color2">Physical address</p>
+
+            <p><b>Contact</b></p>
+            <p className="color2">Email: rivoliyer@gmail.com <br/> Phone number</p>
+          </div>
+          <div className="col-md">
+            <p><b>Explore</b></p>
             <ul>
               <li><a href="/terms-of-use">Terms of use</a></li>
               <li><a href="/about">About Us</a></li>
@@ -45,7 +54,10 @@ function App() {
           </div>
         </div>
         <hr/>
+        <div className="" style={{backgroundColor: '#FFD700', color: 'black',height:'80px',textAlign:"center",padding:"30px"}}>
           <p className=""> 2021, LLC. All Rights Reserved.</p>
+        </div>
+
       </footer>
     </div>
   );

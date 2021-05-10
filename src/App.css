@@ -2,12 +2,8 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 ul{
-  list-style-type: none;
+  list-style-type:none;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -15,7 +11,10 @@ ul{
     animation: App-logo-spin infinite 20s linear;
   }
 }
-
+/*
+  FFD700 gold
+  F0E68C khaki
+*/
 header {
   background-color: #282c34;
   min-height: 100vh;
@@ -30,12 +29,41 @@ header {
 .App-link {
   color: #61dafb;
 }
+footer{
+  background-color: #282c34;
+  color: #FFD700;
+  text-align: left;
+}
+footer .col-md:nth-child(3){
+  text-align: right;
+}
+footer a{
+  color: #FFD700;
+}
+footer a:hover{
+  color: #F0E68C;
+}
+footer .color2{
+color: #F0E68C;
+}
+footer .col-md{
+  padding: 20px;
+}
+footer h1{
+  margin-bottom: 30px;
+}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media (max-width: 768px) {
+  footer .hide{
+    display: none;
   }
-  to {
-    transform: rotate(360deg);
+  footer .col-md{
+    text-align: center;
+  }
+  footer .col-md:nth-child(3){
+    text-align: center;
+  }
+  footer ul{
+    padding: 0px 50px;
   }
 }
