@@ -2,18 +2,18 @@ import React from 'react';
 import './about.css';
 
 //import aboutBg from "../images/aboutBg.JPG";
-import portImg from "../images/portrait.jpg";
-import ggImg from "../images/Gg.jpg";
-import brownImg from "../images/Brown.jpg";
-import lesediImg from "../images/Lesedi.jpg";
-import tsietsiImg from "../images/Tsietsi.jpg";
+//import portImg from "../images/portrait.jpg";
+import ggImg from "../images/Gg-face.jpg";
+import brownImg from "../images/Brown-face.jpg";
+import lesediImg from "../images/Lesedi-face.jpg";
+import tsietsiImg from "../images/Tsietsi-face.jpg";
 import teamImg from "../images/team.jpg";
 
 function About (){
   return(
     <div id="About">
-      <div className="header cormorant text-center" style={{backgroundRepeat:"no-repeat",backgroundSize:"cover",backgroundPosition:"center"}}>
-        <h1>100% Tswana Owned</h1>
+      <div className="header cormorant" style={{backgroundRepeat:"no-repeat",backgroundSize:"cover",backgroundPosition:"center"}}>
+        <h1>Rivoliyer Holdings</h1>
         <div className="cormorant">
           <h2>Our Mission</h2>
         </div>
@@ -28,6 +28,7 @@ function About (){
         </div>
       </div>
       <hr/>
+      {/*
       <div className="row content" style={{paddingTop: "100px",paddingBottom:"30px"}}>
         <div className="col-md-6 text-center">
           <img className="img-fluid grayImg"  src={ggImg} alt="Portrait of manager"/>
@@ -80,6 +81,42 @@ function About (){
           veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit,
           sed quia consequuntur magni.</p>
         </div>
+      </div>
+      */}
+      <div className="profileImg row" >
+        <div className="col">
+          <div className="card" style={{width:"18rem"}}>
+            <img className="card-img-top grayImg"  src={ggImg} alt="Portrait of manager"/>
+            <div className="card-body">
+              <h5 className="card-title">Gaolatheope Gomosie<br/> - technical director -</h5>
+            </div>
+          </div>
+        </div>
+        <div className="col">
+          <div className="card" style={{width:"18rem"}}>
+            <img className="card-img-top grayImg"  src={lesediImg} alt="Portrait of manager"/>
+            <div className="card-body">
+              <h5 className="card-title">Lesedi Dithapo<br/> - administrator -</h5>
+            </div>
+          </div>
+        </div>
+        <div className="col">
+          <div className="card" style={{width:"18rem"}}>
+            <img className="card-img-top grayImg"  src={brownImg} alt="Portrait of manager"/>
+            <div className="card-body">
+              <h5 className="card-title">Gaolatheope Gomosie<br/> - trainer -</h5>
+            </div>
+          </div>
+        </div>
+        <div className="col">
+          <div className="card" style={{width:"18rem"}}>
+            <img className="card-img-top grayImg"  src={tsietsiImg} alt="Portrait of manager"/>
+            <div className="card-body">
+              <h5 className="card-title">Tsietsi<br/> - technical supervisor -</h5>
+            </div>
+          </div>
+        </div>
+
       </div>
       <hr/>
       <div className="container-fluid text-center" style={{position: "relative", }}>
