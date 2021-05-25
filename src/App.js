@@ -49,7 +49,7 @@ function App() {
             <ul>
               <li><a href="/terms-of-use">Terms of use</a></li>
               <li><a href="/about">About Us</a></li>
-              <li><a href="/contact">Contact Us</a></li>
+              <li><p >Contact Us</p></li>
             </ul>
           </div>
         </div>
