@@ -22,7 +22,7 @@ class Home extends Component {
               <br/><small>We are accredited to manage and train</small>
             </p>
             <div className="text-center">
-            <a className="btn button" href="/contact-us">Contact <br/> Us</a>
+            <p className="btn button" >Contact <br/> Us</p>
             </div>
           </div>
 
@@ -36,21 +36,21 @@ class Home extends Component {
               <div className="card-body">
                 <p className="card-text">We supply EMV tire & rim accessories(HALTEC) portable electrical, hydraulic machines and tires.</p>
               </div>
-              <a className="card-header" href="/supply">We Supply</a>
+              <p className="card-header" >We Supply</p>
             </div>
             <div className="card">
               <img className="card-img-top" src={earthMovingTire} alt="Earth Moving Tire"/>
               <div className="card-body">
                 <p className="card-text">Social Performance Policy is set to promote and encourage our social responsibility </p>
               </div>
-              <a className="card-header" href="/social-work">Social Work</a>
+              <p className="card-header" >Social Work</p>
             </div>
             <div className="card">
               <img className="card-img-top" src={earthMovingTireManagement} alt="Earth Moving Tire Management"/>
               <div className="card-body">
                 <p className="card-text">We are qualified and accredited to train and advice in the tire and rim field</p>
               </div>
-              <a className="card-header" href="/management-training">Earth Moving Tires and Rim Management Training</a>
+              <p className="card-header"  >Earth Moving Tires and Rim Management Training</p>
             </div>
           </div>
           <hr/>
@@ -64,7 +64,7 @@ class Home extends Component {
 
           <div className="d-flex justify-content-center">
             <div className="buttonContact">
-              <a className="btn button center " href="/contact-us">Contact <br/> Us</a>
+              <p className="btn button center " >Contact <br/> Us</p>
             </div>
 
           </div>

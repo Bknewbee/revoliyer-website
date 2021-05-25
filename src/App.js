@@ -20,7 +20,7 @@ function App() {
               <ul className="navbar-nav ml-auto">
                 <li><a className="nav-link" href="/">Home</a></li>
                 <li><a className="nav-link" href="/about">About Us<span className="sr-only">(current)</span></a></li>
-                <li><a className="nav-link" href="/contact">Contact Us</a></li>
+                <li><p className="nav-link" >Contact Us</p></li>
               </ul>
             </div>
         </nav>
